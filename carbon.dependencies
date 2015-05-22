@@ -1,0 +1,26 @@
+[
+ {
+   "remote": "cm",
+   "repository": "android_device_lge_gproj-common",
+   "target_path": "device/lge/gproj-common",
+   "revision": "cm-12.1"
+ },
+ {
+   "remote": "cm",
+   "repository": "android_hardware_qcom_fm",
+   "target_path": "hardware/qcom/fm",
+   "revision": "cm-12.1"
+ },
+ {
+   "remote": "cm",
+   "repository": "lge-kernel-gproj",
+   "target_path": "kernel/lge/gproj",
+   "revision": "cm-12.1"
+ },
+ {
+   "remote": "tm",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "cm-12.1"
+ }
+]

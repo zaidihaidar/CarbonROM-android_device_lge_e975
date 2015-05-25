@@ -18,7 +18,7 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
 
 # Inherit some common CarbonROM stuff.
-$(call inherit-product, vendor/stelix/config/common_phone.mk)
+$(call inherit-product, vendor/carbon/config/common_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/lge/e975/e975.mk)
@@ -29,7 +29,6 @@ PRODUCT_NAME := carbon_e975
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := LG-E975
 PRODUCT_MANUFACTURER := LGE
-CARBON_BUILDTYPE := NIGHTLY
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=geehrc_open_eu \
                                 BUILD_FINGERPRINT=lge/geehrc_open_eu/geehrc:4.1.2/JZO54K/E97510b.1360741472:user/release-keys \
